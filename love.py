@@ -82,7 +82,7 @@ with col1:
         st.image(img1, use_container_width=False)
         st.caption("✨ 我承认我见色起意 ✨")
     except:
-        st.image(Image.open("C:/Users/AAA/Desktop/溪溪/照片1.jpg"))
+        st.image(Image.open("照片1.jpg"))
         st.caption("✨ 我承认我见色起意 ✨")
 
 with col2:
@@ -95,7 +95,7 @@ with col2:
         st.image(img2, use_container_width=False)
         st.caption("✨ 但你确实颇具风色 ✨")
     except:
-        st.image(Image.open("C:/Users/AAA/Desktop/溪溪/照片2.jpg"))
+        st.image(Image.open("照片2.jpg"))
         st.caption("✨ 但你确实颇具风色 ✨")
 st.markdown("---")
 
